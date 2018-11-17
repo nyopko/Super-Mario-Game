@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Coin Collector Game | Nick Yopko</title>
+
+    <!-- Linking the reset.css -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <!-- Linking the stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <!-- linking jQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Linking the Javascript file -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Boogaloo" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Title Box -->
+
+    <div id="title">
+        <h1><span style="background-color: black">Coin Collector</span></h1>
+    </div>
+
+    <!-- Instructions box -->
+
+    <div id="instructions">
+        <p><span style="background-color: black">
+           Help Mario save The Princess! <br>
+            Rules: Each power-up item is worth a random number of points.<br>
+            Click on a power-up to collect its coins.<br>
+            When your total coins matches the target number, you win!<br>
+            Be careful... If you go over the target you lose!<br>
+        </span></p>
+    </div>
+
+    <div id="goalnumberheader">
+        <p id="goalnumberheaderbox">Target Coins</p>
+    </div>
+
+    <!-- Goal Number box -->
+
+    <div id="firstnumber">
+        <p id="first-number">
+
+        </p>
+    </div>
+
+    <!-- Win/Loss Box -->
+
+    <div id="winloss">
+        <!-- <p>
+            Your Coins:
+        </p> -->
+        <p>Wins<p id="wincounter"></p></p>
+        <p>Losses<p id="losscounter"></p></p>
+    </div>
+
+    <!-- The 4 Crystals -->
+
+    <div id="powerups">
+
+        <img id="mushroom" src="assets/images/mushroom.png">
+        <img id="coin" src="assets/images/coin.png">
+        <img id="flower" src="assets/images/flower.png">
+        <img id="star" src="assets/images/star.png">
+
+    </div>
+
+    <!-- Total Score Header -->
+
+    <div id="totalscoreheader">
+        <p id="totalscore">
+            Your Coins
+        </p>
+    </div>
+
+    <!-- Total Score Number -->
+
+    <div id="totalscorenumber">
+        <p id="total-score-number"></p>
+    </div>
+
+    <div id="pics">
+       <img id="winpic" src="../unit-4-game/assets/images/winpic.jpg" >
+       <img id= "losspic" src="../unit-4-game/assets/images/bowser.jpg">
+    </div>
+
+</body>
+
+</html>
